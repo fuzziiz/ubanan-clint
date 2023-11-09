@@ -1,0 +1,89 @@
+public class Student {
+   private int studentID;
+   private String firstName;
+   private String middleName;
+   private String lastName;
+   private String suffix;
+   private int age;
+   private int yearLvl;
+   private int phoneNum;
+   private String email;
+   
+   public Student(){
+   
+   }
+   
+   // SETTERS
+   public void setStudentID(int id) {
+      studentID = id;
+   }
+   
+   public void setFirstName(String _firstName) {
+      firstName = _firstName;
+   }
+   
+   public void setMiddleName(String _middleName) {
+      middleName = _middleName;
+   }
+   
+   public void setLastName(String _lastName) {
+      lastName = _lastName;
+   }
+   
+   public void setSuffix(String _suffix) {
+      suffix = _suffix;
+   }
+   
+   public void setAge(int _age) {
+      age = _age;
+   }
+   
+   public void setYearLvl(int yrLvl) {
+      yearLvl = yrLvl;
+   }
+   
+   public void setPhoneNum(int _phoneNum) {
+      phoneNum = _phoneNum;
+   }
+   
+   public void setEmail(String _email) {
+      email = _email;
+   }
+   
+   // GETTERS
+   public int getStudentID() {
+      return studentID;
+   }
+   
+   public String getFirstName() {
+      return firstName;
+   }
+   
+   public String getMiddleName() {
+      return middleName;
+   }
+   
+   public String getLastName() {
+      return lastName;
+   }
+   
+   public String getSuffix() {
+      return suffix;
+   }
+   
+   public int getAge() {
+      return age;
+   }
+   
+   public int getYearLvl() {
+      return yearLvl;
+   }
+   
+   public int getPhoneNumber() {
+      return phoneNum;
+   }
+   
+   public String getEmail() {
+      return email;
+   }
+}
